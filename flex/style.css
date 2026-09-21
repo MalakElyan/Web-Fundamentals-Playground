@@ -1,0 +1,137 @@
+.box{
+    height:200px ;
+    width: 300px;
+    background-color: white;
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    position: relative;
+    padding: 30px 20px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.information{
+    background-color: rgb(243, 243, 243);
+    border: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    position: absolute;
+    top: -22px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.input{
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  align-items: center;
+  height: 25px;  
+  border: 2px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(207, 207, 207);
+  border-left: 8px solid turquoise;
+  padding: 5px;
+}
+
+.input img{
+    width: 25px;
+    height: 30px;
+}
+
+.btn{
+background-color: rgb(149, 239, 239);
+border: 1px solid rgb(149, 239, 239);
+border-radius: 5px;
+box-shadow: 2px 2px 3px #888;
+width: 70px;
+padding: 10px;
+}
+
+.btn:hover{
+    background-color: #a8a8a8;
+    border-color: #a8a8a8;
+}
+
+
+
+
+
+
+/*.Container {
+    width: 350px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 30px 20px 30px 20px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.title {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background: #f0f0f0;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.input {
+    display: flex; 
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    overflow: hidden;
+    height: 40px; 
+}
+
+
+.icon {
+    width: 45px;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 8px solid #00a8a8; 
+    padding-left: 2px;
+}
+
+.icon img {
+    width: 25px; 
+}
+
+
+input {
+    flex: 1;
+    border: none; 
+    padding: 0 10px;
+    background: #f5f5f5;
+    outline: none;
+    font-size: 16px;
+}
+
+.register-btn {
+    background: #b2e0e0;
+    border: 1px solid #88cccc;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+    margin-top: 2px;
+    box-shadow: 2px 2px 3px #888; 
+    background-color: #81b9b9;
+}
+
+.register-btn:hover {
+    background-color: #a29899; 
+    border-color: #b8aeaf;
+}*/

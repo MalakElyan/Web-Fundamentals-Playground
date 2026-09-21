@@ -1,0 +1,160 @@
+body{
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+
+.container{
+    width: 1000px;
+    max-height: 1000px;
+    background-color: white;
+    margin: auto;
+    overflow: auto;
+}
+
+header{
+    background-color: #ddd;
+    /* لضمان ظهور الخلفية حول العناصر الطافية */
+    overflow: auto;
+}
+
+
+header img {
+    width: 48px;
+    height: 40px;
+    margin-top: 26px;
+    margin-left: 41px;
+    /* جعل الصورة تطفو لليسار */
+    float: left; 
+}
+
+header h1{
+    /* هان لازم اعمله فلوت عشان اقدر اعطيه margin وهيك والا مش هيزبط لان هتكون الصورة طايرة و النص تحت فمش هيشوفوا بعض*/
+    float: left; 
+    margin-left: 15px;
+}
+
+header h5{
+    /* الابسليوت بخلي العنصر جر و بيعطيني حرية في وين احدد مكانه بالبكسل حتلا وما بتاثر بمارجين وبادينق العناصر االي حواليه يعني عادي ممكن يلزق فيهم لو بدي*/
+    position:absolute;
+    margin-left: 108px;
+    margin-top: -25px;
+}
+
+.clear{
+    clear: both;
+}
+
+nav{
+   background-color: rgb(133, 134, 135); 
+   /* لضمان ظهور الخلفية حول العناصر الطافية */
+   overflow: auto;
+   margin-top: 5px;
+}
+
+/*هاد عشان أشيل الترقيم الي بيظهر تلقائي سواء أرقام أو دوائر غيره */
+nav ul {
+    list-style: none;
+}
+
+
+nav li a {
+    /* لإزالة الخط الذي تحت الرابط */
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+    padding: 10px;
+}
+
+nav .active{
+    color: black;
+    font-weight: bold;
+}
+
+section .pi{
+    /* هان بقسم المسافة كلها 100 على ثلاث عناصر الي هما الديف بطلع 33.33*/
+    width: 33.33%;
+    float: left;
+}
+
+.pi h4,.pi h3,.pi .p1 {
+    color: #a52a2a; 
+}
+
+.pi .p1{
+border-bottom: 2px solid #ddd;          /* الخط الرمادي الرفيع */
+padding: 5px;        /* مسافة فوق وتحت النص عشان ما يلزق بالخط */
+width: 70%;                                          /* طول الخط  */
+margin-bottom: 5px;         /* مسافة بسيطة بين كل أكلة والثانية */
+}
+
+
+.pi img {
+    margin: 10px; 
+    /*  هان اعطينا اطار ونوعه ولونه للصورة*/
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+.lower-section {
+    display: flex;
+    /* توزيع العناصر بمسافات متساوية */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    /*  مسافة بين الأعمدة عشان محتواهم ما يدخل على بعض*/
+    gap: 30px; 
+}
+
+.photo-box {
+    /* 1. إضافة الإطار (لون رمادي فاتح مثل الصورة) */
+    border: 1px solid #ddd;
+    /* 2. إضافة مسافة داخلية (Padding) لكي لا يلتصق الإطار بالصورة والنص */
+    padding: 10px;
+    /* لجعل الإطار على قد محتواه تماماً */
+    width: fit-content; 
+    
+    /* 4. text-align: center; لتوسيط النص (اسم الصوص) تحت الصورة */
+}
+
+.photo-box p {
+    /* مسافة صغيرة بين الصورة والنص */
+    margin-top: 8px; 
+    font-size: 14px;
+    color: #333;
+}
+
+.sauce-info h4 {
+   color: #a52a2a; 
+}
+
+.contact-box h3,.contact-box p {
+color: #a52a2a; 
+}
+
+footer{
+   background-color: #ddd;
+   height: 40px; 
+}
+
+footer p{
+    line-height: 40px; /* نفس ارتفاع الفوتر لتوسيط النص عمودياً */
+    padding-left: 10px; /* لإبعاد النص عن الحافة اليسرى قليلاً */
+    font-size: 14px;
+}
+
+.parent{
+    background-color: #a52a2a;
+    padding: 10px;
+
+}
+
+.parent div{
+background-color: #333;
+text-align: center;
+width: 25%;
+float: left;
+padding-top: 10px;
+padding-bottom: 10px;
+}

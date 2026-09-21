@@ -1,0 +1,40 @@
+/* الحاوية الأساسية للأيقونة */
+.card {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 5px solid rgba(0, 123, 255, 0.95);
+    overflow: hidden; /* ضروري عشان الكلام ما يطلع برا المربع */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.info h3 {
+    color: white; 
+    font-size: 18px;
+}
+
+.info p {
+    color: #ccc;    
+    font-size: 14px;
+}
+
+/* الطبقة الزرقاء (النص) */
+.info {
+    position: absolute;
+    bottom: 0;        /* نثبتها في الأسفل */
+    left: 0;
+    width: 100%;
+    height: 0;        /* البداية تكون مختفية (ارتفاعها صفر) */
+    background-color: rgba(0, 123, 255, 0.95);
+    color: white;
+    transition: height 2s; /* هنا السحر: ينعم تغيير الارتفاع */
+}
+
+/* عند تمرير الفأرة على المربع الكبير */
+.card:hover .info {
+    height: 40%;     /* يرتفع للأعلى بمقدار 50 بكسل */
+}
