@@ -50,10 +50,10 @@ A structured collection of practical web development exercises, UI components, a
 ## 🔒 Copyright & Terms of Use
 
 © 2026 **Malak Elyan**. All rights reserved.
-
----
-⭐ *If you found this project useful, feel free to star the repository!*
-
 This repository and its contents are part of my learning journey and portfolio. No part of this code may be copied or redistributed without permission.
 
-```
+---
+
+⭐ *If you found this project useful, feel free to star the repository!*
+
+
